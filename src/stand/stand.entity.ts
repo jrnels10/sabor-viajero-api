@@ -7,7 +7,7 @@ import {
 } from 'typeorm';
 
 @Entity()
-@Unique(['food_stand'])
+@Unique(['ownerId'])
 export class Stand extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;
@@ -15,7 +15,7 @@ export class Stand extends BaseEntity {
   @Column()
   food_stand: string;
 
-  @Column({ nullable: true })
+  @Column()
   contact_number: string;
 
   @Column()
@@ -27,12 +27,12 @@ export class Stand extends BaseEntity {
   @Column()
   description: string;
 
-  @Column({ nullable: true })
+  @Column()
   address: string;
 
-  @Column({ nullable: true })
+  @Column()
   status: boolean;
 
-  @Column({ nullable: true })
+  @Column()
   type: string[];
 }
