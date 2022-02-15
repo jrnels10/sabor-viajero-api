@@ -21,7 +21,7 @@ export class Stand extends BaseEntity {
   @Column()
   ownerId: number;
 
-  @Column()
+  @Column('int', { array: true })
   coordinates: number[];
 
   @Column()
@@ -33,6 +33,6 @@ export class Stand extends BaseEntity {
   @Column()
   status: boolean;
 
-  @Column()
+  @Column('text', { array: true })
   type: string[];
 }

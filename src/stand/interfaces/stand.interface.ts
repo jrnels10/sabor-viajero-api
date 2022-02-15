@@ -1,4 +1,4 @@
-export class CreatStandDto {
+export interface Stand {
   id: number;
   food_stand: string;
   contact_number: string;

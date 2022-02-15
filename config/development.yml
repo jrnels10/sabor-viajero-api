@@ -3,7 +3,7 @@ db:
   username: 'postgres'
   password: 'root'
   synchronize: true
-  database: 'viajero-api-service'
+  database: 'viajero-api'
   port: 5432
 server:
   origin: http://localhost:8100
