@@ -1,0 +1,11 @@
+db:
+  host: 'localhost'
+  username: 'postgres'
+  password: 'root'
+  synchronize: true
+  database: 'viajero-api-service'
+  port: 5432
+server:
+  origin: http://localhost:8100
+  # origin: http://192.168.0.186:8100
+  # origin: http://192.168.0.191:8101
