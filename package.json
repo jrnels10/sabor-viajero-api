@@ -1,7 +1,7 @@
 {
   "name": "sabor-viajero-api",
   "version": "0.0.1",
-  "description": "",
+  "description": "Api Service for Sabor Viajero App",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
@@ -25,6 +25,7 @@
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
     "reflect-metadata": "^0.1.13",
+    "@nestjs/typeorm": "^8.0.3",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0"
   },
